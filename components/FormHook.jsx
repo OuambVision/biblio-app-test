@@ -7,32 +7,16 @@ export default function FormHook() {
     const {
         register,
         handleSubmit,
-        watch,
         formState: { errors }
     } = useForm({
         defaultValues: {
-            nom: '',
+            password: '',
             courriel: ''
         }
     });
-    const nom = watch('nom');
     return <>
         <form className={styles.form}
             onSubmit={handleSubmit(() => setReponse("Message reçu avec succès!"))}>
-            <label>
-                Nom:
-                <input
-                    type="text"
-                    {...register("nom",
-                        {
-                            required: 'Champ obligatoire',
-                            minLength: { value: 4, message: "min 4 caractères" }
-                        })
-                    }
-                    placeholder='votre nom' />
-                <div className={styles.erreur}>{errors.nom?.message}</div>
-            </label>
-            <div>Nom : {nom}</div>
             <label>
                 Courriel:
                 <input
@@ -50,7 +34,20 @@ export default function FormHook() {
                 />
                 <div className={styles.erreur}>{errors.courriel?.message}</div>
             </label>
-            <button type="submit">Envoyer</button>
+            <label>
+                Password:
+                <input
+                    type="passwaord"
+                    {...register("password",
+                        {
+                            required: 'Champ obligatoire',
+                            minLength: { value: 4, message: "min 4 caractères" }
+                        })
+                    }
+                    placeholder='votre password' />
+                <div className={styles.erreur}>{errors.password?.message}</div>
+            </label>
+            <button type="submit">Se connecter</button>
             <div>{reponse}</div>
         </form>
     </>

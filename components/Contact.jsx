@@ -4,13 +4,13 @@ import FormHook from "./FormHook"
 export default function Contact() {
     return <>
         <div>
-            Formulaire non controlé
+            {/* Formulaire non controlé
             <FormNonControlle/>
 
             Formulaire controlé
-            <FormControlle/>
+            <FormControlle/> */}
 
-            Formulaire avec React-Hook-Form
+            Formulaire Inscription
             <FormHook/>
         </div>
     </>
