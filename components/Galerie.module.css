@@ -1,0 +1,12 @@
+.gallerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallerie img {
+    width: auto;
+    height: 15rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+}

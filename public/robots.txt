@@ -1,0 +1,6 @@
+# Allow all crawler
+User-agent: *
+Allow: /
+
+#Envoie de sitemap à Google
+Sitemap: https://localhost:3000/sitemap.xml

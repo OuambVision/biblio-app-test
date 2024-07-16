@@ -1,0 +1,20 @@
+[
+    {
+        "slug": "epee-cuivre",
+        "nom": "Épée en cuivre",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus suscipit odit fugit corrupti possimus doloremque harum. Nesciunt modi placeat hic, rerum similique quae minus! Perferendis vel in odit quis sit?",
+        "image": "/inventaire/epee.png"
+    },
+    {
+        "slug": "plume-phenix",
+        "nom": "Plume du phénix",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus suscipit odit fugit corrupti possimus doloremque harum. Nesciunt modi placeat hic, rerum similique quae minus! Perferendis vel in odit quis sit?",
+        "image": "/inventaire/plume.png"
+    },
+    {
+        "slug": "botte-combat",
+        "nom": "Botte de combat",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus suscipit odit fugit corrupti possimus doloremque harum. Nesciunt modi placeat hic, rerum similique quae minus! Perferendis vel in odit quis sit?",
+        "image": "/inventaire/bottes.png"
+    }
+]

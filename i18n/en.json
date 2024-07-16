@@ -1,0 +1,9 @@
+{
+    "app.header.title": "Biblio App",
+    "app.header.menu.lien1": "Home",
+    "app.header.menu.lien2": "Documents",
+    "app.header.menu.lien3": "Contact",
+    "app.header.menu.lien4": "Log In",
+    "app.header.theme": "Dark mode",
+    "app.header.menu.lien5": "Store"
+}
