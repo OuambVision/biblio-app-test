@@ -13,7 +13,8 @@ export const metadata = {
     title: 'biblio-app | Accueil',
     description: 'Site web présentant les fonctionnalités de React et Next.js.',
     images: ['./react.webp']
-  }
+  },
+  manifest: './manifest.webmanifest',
 }
 
 export default function RootLayout({ children }) {

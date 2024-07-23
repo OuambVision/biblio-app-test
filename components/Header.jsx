@@ -15,7 +15,7 @@ export default function Header() {
                 alt="Logo React"
                 width={80}
             />
-            <h1>Biblio App</h1>
+            <h1>Biblio App Test</h1>
         </div>
         <MenuNav/>
     </header>
